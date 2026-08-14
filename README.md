@@ -14,12 +14,12 @@ See [`DESIGN.md`](DESIGN.md) for the full architecture and 12-week roadmap.
 
 ## Demo
 
-▶ **3-minute guided demo:** [`DEMO.md`](DEMO.md) — or just run `bash scripts/demo.sh`.
-Record and share it as a terminal cast with asciinema (steps in `DEMO.md`).
+![TrustGate demo](docs/trustgate.gif)
 
-<!-- After `asciinema upload trustgate.cast`, paste your link here:
-[![asciicast](https://asciinema.org/a/XXXXXX.svg)](https://asciinema.org/a/XXXXXX)
--->
+▶ **3-minute guided tour:** run `bash scripts/demo.sh`, or read [`DEMO.md`](DEMO.md).
+The GIF above is generated from a real run — `python scripts/make_cast.py` records
+`trustgate.cast`, then `python scripts/cast_to_gif.py` renders `docs/trustgate.gif`
+(the cast also uploads to asciinema.org from any Unix shell).
 
 ## Status
 
