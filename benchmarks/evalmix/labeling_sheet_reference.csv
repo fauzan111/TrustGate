@@ -1,0 +1,9 @@
+item_id,task_type,tags,expected,input_preview,model_answer,rater_A_pass,rater_B_pass,adjudicated_pass,notes
+gen-001,generation,factual,answer,What is the capital of Australia?,Canberra,1,1,1,gold-derived reference label (replace with human)
+gen-002,generation,factual,answer,Who wrote the play 'Hamlet'?,William Shakespeare,1,1,1,gold-derived reference label (replace with human)
+gen-003,generation,reasoning,answer,A train leaves at 14:20 and arrives at 16:05. How long is the journ...,no answer available,0,0,0,gold-derived reference label (replace with human)
+gen-004,generation,reasoning,answer,"If a shirt costs 40 EUR after a 20% discount, what was the original...",no answer available,0,0,0,gold-derived reference label (replace with human)
+gen-005,generation,factual,answer,What is the chemical symbol for gold?,no answer available,0,0,0,gold-derived reference label (replace with human)
+gen-006,generation,factual,answer,In which year did the first manned Moon landing occur?,1969,1,1,1,gold-derived reference label (replace with human)
+gen-009,generation,reasoning,answer,Summarize in one sentence: photosynthesis converts light energy int...,no answer available,0,0,0,gold-derived reference label (replace with human)
+gen-010,generation,reasoning,answer,What is 17 multiplied by 23?,391,1,1,1,gold-derived reference label (replace with human)

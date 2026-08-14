@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+- **Demo:** `scripts/demo.sh` + `DEMO.md` (asciinema-ready 3-minute tour).
+- **Human labels:** `load_labels()` + `trustgate autolabel`; `judge-lab --labels <csv>` uses
+  real labels for agreement/calibration (falls back to the oracle).
+- **Real-judge swap:** `judge-lab --judge ollama` runs the probes against a local Ollama
+  model — one flag, graceful error if the server/model isn't available.
+
 ## 0.1.0 — first flagship release
 
 The full evaluation-and-release-gating pipeline, buildable and testable offline (no GPU, no

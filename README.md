@@ -12,6 +12,15 @@ labels as possible**.
 
 See [`DESIGN.md`](DESIGN.md) for the full architecture and 12-week roadmap.
 
+## Demo
+
+▶ **3-minute guided demo:** [`DEMO.md`](DEMO.md) — or just run `bash scripts/demo.sh`.
+Record and share it as a terminal cast with asciinema (steps in `DEMO.md`).
+
+<!-- After `asciinema upload trustgate.cast`, paste your link here:
+[![asciicast](https://asciinema.org/a/XXXXXX.svg)](https://asciinema.org/a/XXXXXX)
+-->
+
 ## Status
 
 **Milestone 0 — walking skeleton (done).** A fully typed pipeline flows end to end:

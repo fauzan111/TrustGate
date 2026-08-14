@@ -24,6 +24,7 @@ from trustgate.judge import (
     position_swap_rate,
     self_consistency,
 )
+from trustgate.labeling import load_labels
 from trustgate.decision import release_decision
 from trustgate.experiments import (
     build_evalmix,
@@ -226,39 +227,57 @@ def rag_demo(
         typer.echo(f"  {metric:<22} {est.mean:.3f}  CI=[{est.ci_low:.3f}, {est.ci_high:.3f}]")
 
 
+def _make_judge(backend: str, length_bias: float, position_bias: float,
+                noise: float, ollama_model: str):
+    """Judge factory: 'simulated' (known biases) or 'ollama' (real local model)."""
+    if backend == "ollama":
+        from trustgate.judge import OllamaJudge
+        return OllamaJudge(model=ollama_model)
+    return SimulatedJudge(length_bias=length_bias, position_bias=position_bias, noise=noise)
+
+
 @app.command(name="judge-lab")
 def judge_lab(
     directory: str = typer.Option("benchmarks/evalmix/seed", help="Seed directory."),
-    length_bias: float = typer.Option(0.4, help="Inject a known length bias into the judge."),
-    position_bias: float = typer.Option(0.0, help="Inject a known position bias."),
-    noise: float = typer.Option(0.15, help="Per-trial judge noise."),
+    judge_backend: str = typer.Option("simulated", "--judge",
+                                      help="Judge backend: simulated | ollama."),
+    ollama_model: str = typer.Option("llama3.1", help="Ollama model (when --judge ollama)."),
+    labels: str = typer.Option("", help="Labeling CSV with human labels (else oracle)."),
+    length_bias: float = typer.Option(0.4, help="Inject a known length bias (simulated)."),
+    position_bias: float = typer.Option(0.0, help="Inject a known position bias (simulated)."),
+    noise: float = typer.Option(0.15, help="Per-trial judge noise (simulated)."),
     quality: float = typer.Option(0.7, help="Mock SUT quality (mix of right/wrong answers)."),
 ) -> None:
-    """Run the Judge Lab against a SimulatedJudge with *known* biases.
+    """Run the Judge Lab against a judge (simulated with known biases, or a real Ollama model).
 
     Demonstrates: bias probes (length, position), self-consistency, judge<->human
-    agreement, and threshold calibration. The 'human' labels here are a ground-truth
-    oracle (stand-in until the labeling sheet is filled). Swap in OllamaJudge later with
-    no other changes.
+    agreement, and threshold calibration. Human labels come from --labels if given, else a
+    ground-truth oracle. Swapping to a real model is one flag: `--judge ollama`.
     """
     ds = load_seed(directory)
     gen = [it for it in ds.items
            if it.task_type is TaskType.GENERATION
            and it.metadata.get("expected", "answer") == "answer"]
 
-    judge = SimulatedJudge(length_bias=length_bias, position_bias=position_bias, noise=noise)
+    judge = _make_judge(judge_backend, length_bias, position_bias, noise, ollama_model)
+    human_labels = load_labels(labels) if labels else {}
 
-    # Outputs + ground-truth "human" labels.
+    # Outputs + human labels (from file or ground-truth oracle).
     sut = MockSUT("candidate", quality=quality, seed=3)
     judge_scores: list[float] = []
     human_pass: list[int] = []
-    for it in gen:
-        out = sut.predict(it)
-        q, a = str(it.input), str(out.prediction)
-        ref = it.references[0] if isinstance(it.references, list) else it.references
-        correct = str(ref).lower() in a.lower()
-        human_pass.append(1 if correct else 0)
-        judge_scores.append(judge.score(q, a, str(ref)))
+    try:
+        for it in gen:
+            out = sut.predict(it)
+            q, a = str(it.input), str(out.prediction)
+            ref = it.references[0] if isinstance(it.references, list) else it.references
+            oracle = 1 if str(ref).lower() in a.lower() else 0
+            human_pass.append(human_labels.get(it.id, oracle))
+            judge_scores.append(judge.score(q, a, str(ref)))
+    except RuntimeError as exc:
+        typer.secho("Judge backend error", fg=typer.colors.RED, bold=True)
+        typer.echo(str(exc))
+        raise typer.Exit(code=1)
 
     judge_pass = [1 if s >= 0.5 else 0 for s in judge_scores]
     agree = judge_human_agreement(judge_pass, human_pass)
@@ -433,6 +452,41 @@ def agent_demo(
                 bold=True)
     for metric, est in aggregate(scores).items():
         typer.echo(f"  {metric:<22} {est.mean:.3f}  CI=[{est.ci_low:.3f}, {est.ci_high:.3f}]")
+
+
+@app.command()
+def autolabel(
+    directory: str = typer.Option("benchmarks/evalmix/seed", help="Seed directory."),
+    quality: float = typer.Option(0.7, help="Mock SUT quality (must match judge-lab)."),
+    out: str = typer.Option("benchmarks/evalmix/labeling_sheet_reference.csv", help="Output CSV."),
+) -> None:
+    """Fill a labeling sheet with gold-derived REFERENCE labels for a mock run.
+
+    These are derived from the known gold answers (not independent human annotations); they
+    let the judge-calibration path run end-to-end and serve as a template a human overwrites.
+    Use with `judge-lab --labels <out>`.
+    """
+    ds = load_seed(directory)
+    gen = [it for it in ds.items
+           if it.task_type is TaskType.GENERATION
+           and it.metadata.get("expected", "answer") == "answer"]
+    sut = MockSUT("candidate", quality=quality, seed=3)
+    with Path(out).open("w", newline="", encoding="utf-8") as fh:
+        w = csv.writer(fh)
+        w.writerow(["item_id", "task_type", "tags", "expected", "input_preview",
+                    "model_answer", "rater_A_pass", "rater_B_pass", "adjudicated_pass", "notes"])
+        n_pass = 0
+        for it in gen:
+            out_ = sut.predict(it)
+            answer = str(out_.prediction)
+            ref = it.references[0] if isinstance(it.references, list) else it.references
+            p = 1 if str(ref).lower() in answer.lower() else 0
+            n_pass += p
+            w.writerow([it.id, it.task_type.value, "|".join(it.tags),
+                        it.metadata.get("expected", "answer"), _input_preview(it),
+                        answer, p, p, p, "gold-derived reference label (replace with human)"])
+    typer.secho(f"Wrote {len(gen)} reference labels ({n_pass} pass) to {out}",
+                fg=typer.colors.GREEN, bold=True)
 
 
 @app.command()
