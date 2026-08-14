@@ -1,0 +1,27 @@
+name: Eval Release Gate
+
+# Runs the TrustGate quality gate on every pull request. If the candidate model/prompt/RAG
+# config regresses beyond the tolerance (with the configured confidence), the check fails
+# and blocks the merge — evaluations gate releases just like unit tests do.
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  quality-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # In a real project this step would run your candidate + baseline over the eval set
+      # and write two JSON score files. The demo below uses the built-in synthetic mode.
+      - name: TrustGate quality gate (demo / synthetic)
+        uses: ./.github/actions/trustgate
+        with:
+          margin: "0.05"
+          alpha: "0.05"
+          method: "normal"
+          # candidate-scores: "artifacts/candidate_scores.json"
+          # baseline-scores: "artifacts/baseline_scores.json"

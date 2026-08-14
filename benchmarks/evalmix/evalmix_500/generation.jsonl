@@ -1,0 +1,175 @@
+{"id":"gen-syn-0000","task_type":"generation","input":"What is the capital of Canada?","references":["Ottawa"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0001","task_type":"generation","input":"What is 73 multiplied by 62?","references":["4526"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0002","task_type":"generation","input":"What is the chemical symbol for neon?","references":["Ne"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0003","task_type":"generation","input":"What is 8 plus 18?","references":["26"],"tags":["reasoning"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0004","task_type":"generation","input":"What is the capital of Japan?","references":["Tokyo"],"tags":["factual","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0005","task_type":"generation","input":"What is 79 multiplied by 88?","references":["6952"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0006","task_type":"generation","input":"What is the chemical symbol for iron?","references":["Fe"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0007","task_type":"generation","input":"What is 17 plus 19?","references":["36"],"tags":["reasoning"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0008","task_type":"generation","input":"What is the capital of Ghana?","references":["Accra"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0009","task_type":"generation","input":"What is 81 multiplied by 72?","references":["5832"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0010","task_type":"generation","input":"What is the chemical symbol for gold?","references":["Au"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0011","task_type":"generation","input":"What is 2 plus 4?","references":["6"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0012","task_type":"generation","input":"What is the capital of Chile?","references":["Santiago"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0013","task_type":"generation","input":"What is 53 multiplied by 42?","references":["2226"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0014","task_type":"generation","input":"What is the chemical symbol for iron?","references":["Fe"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0015","task_type":"generation","input":"What is 9 plus 6?","references":["15"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0016","task_type":"generation","input":"What is the capital of Japan?","references":["Tokyo"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0017","task_type":"generation","input":"What is 73 multiplied by 24?","references":["1752"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0018","task_type":"generation","input":"What is the chemical symbol for iron?","references":["Fe"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0019","task_type":"generation","input":"What is 19 plus 8?","references":["27"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0020","task_type":"generation","input":"What is the capital of Ghana?","references":["Accra"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0021","task_type":"generation","input":"What is 60 multiplied by 51?","references":["3060"],"tags":["reasoning","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0022","task_type":"generation","input":"What is the chemical symbol for oxygen?","references":["O"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0023","task_type":"generation","input":"What is 10 plus 17?","references":["27"],"tags":["reasoning","adversarial"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0024","task_type":"generation","input":"What is the capital of Egypt?","references":["Cairo"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0025","task_type":"generation","input":"What is 21 multiplied by 80?","references":["1680"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0026","task_type":"generation","input":"What is the chemical symbol for carbon?","references":["C"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0027","task_type":"generation","input":"What is 8 plus 20?","references":["28"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0028","task_type":"generation","input":"What is the capital of Kenya?","references":["Nairobi"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0029","task_type":"generation","input":"What is 56 multiplied by 21?","references":["1176"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0030","task_type":"generation","input":"What is the chemical symbol for helium?","references":["He"],"tags":["factual","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0031","task_type":"generation","input":"What is 10 plus 5?","references":["15"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0032","task_type":"generation","input":"What is the capital of Egypt?","references":["Cairo"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0033","task_type":"generation","input":"What is 23 multiplied by 29?","references":["667"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0034","task_type":"generation","input":"What is the chemical symbol for iron?","references":["Fe"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0035","task_type":"generation","input":"What is 20 plus 5?","references":["25"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0036","task_type":"generation","input":"What is the capital of Japan?","references":["Tokyo"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0037","task_type":"generation","input":"What is 34 multiplied by 26?","references":["884"],"tags":["reasoning","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0038","task_type":"generation","input":"What is the chemical symbol for gold?","references":["Au"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0039","task_type":"generation","input":"What is 15 plus 5?","references":["20"],"tags":["reasoning","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0040","task_type":"generation","input":"What is the capital of Japan?","references":["Tokyo"],"tags":["factual","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0041","task_type":"generation","input":"What is 34 multiplied by 18?","references":["612"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0042","task_type":"generation","input":"What is the chemical symbol for iron?","references":["Fe"],"tags":["factual","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0043","task_type":"generation","input":"What is 10 plus 13?","references":["23"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0044","task_type":"generation","input":"What is the capital of Ghana?","references":["Accra"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0045","task_type":"generation","input":"What is 18 multiplied by 97?","references":["1746"],"tags":["reasoning"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0046","task_type":"generation","input":"What is the chemical symbol for carbon?","references":["C"],"tags":["factual","adversarial"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0047","task_type":"generation","input":"What is 7 plus 2?","references":["9"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0048","task_type":"generation","input":"What is the capital of Ghana?","references":["Accra"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0049","task_type":"generation","input":"What is 94 multiplied by 56?","references":["5264"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0050","task_type":"generation","input":"What is the chemical symbol for sodium?","references":["Na"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0051","task_type":"generation","input":"What is 4 plus 12?","references":["16"],"tags":["reasoning","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0052","task_type":"generation","input":"What is the capital of Egypt?","references":["Cairo"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0053","task_type":"generation","input":"What is 56 multiplied by 89?","references":["4984"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0054","task_type":"generation","input":"What is the chemical symbol for sodium?","references":["Na"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0055","task_type":"generation","input":"What is 15 plus 4?","references":["19"],"tags":["reasoning"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0056","task_type":"generation","input":"What is the capital of Peru?","references":["Lima"],"tags":["factual","adversarial"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0057","task_type":"generation","input":"What is 68 multiplied by 59?","references":["4012"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0058","task_type":"generation","input":"What is the chemical symbol for silver?","references":["Ag"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0059","task_type":"generation","input":"What is 20 plus 15?","references":["35"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0060","task_type":"generation","input":"What is the capital of Egypt?","references":["Cairo"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0061","task_type":"generation","input":"What is 31 multiplied by 68?","references":["2108"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0062","task_type":"generation","input":"What is the chemical symbol for gold?","references":["Au"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0063","task_type":"generation","input":"What is 11 plus 16?","references":["27"],"tags":["reasoning"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0064","task_type":"generation","input":"What is the capital of Canada?","references":["Ottawa"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0065","task_type":"generation","input":"What is 92 multiplied by 21?","references":["1932"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0066","task_type":"generation","input":"What is the chemical symbol for gold?","references":["Au"],"tags":["factual","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0067","task_type":"generation","input":"What is 12 plus 2?","references":["14"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0068","task_type":"generation","input":"What is the capital of France?","references":["Paris"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0069","task_type":"generation","input":"What is 89 multiplied by 23?","references":["2047"],"tags":["reasoning"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0070","task_type":"generation","input":"What is the chemical symbol for oxygen?","references":["O"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0071","task_type":"generation","input":"What is 7 plus 5?","references":["12"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0072","task_type":"generation","input":"What is the capital of Chile?","references":["Santiago"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0073","task_type":"generation","input":"What is 68 multiplied by 25?","references":["1700"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0074","task_type":"generation","input":"What is the chemical symbol for helium?","references":["He"],"tags":["factual","adversarial"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0075","task_type":"generation","input":"What is 2 plus 3?","references":["5"],"tags":["reasoning","adversarial"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0076","task_type":"generation","input":"What is the capital of Poland?","references":["Warsaw"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0077","task_type":"generation","input":"What is 83 multiplied by 16?","references":["1328"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0078","task_type":"generation","input":"What is the chemical symbol for neon?","references":["Ne"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0079","task_type":"generation","input":"What is 15 plus 13?","references":["28"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0080","task_type":"generation","input":"What is the capital of Canada?","references":["Ottawa"],"tags":["factual","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0081","task_type":"generation","input":"What is 30 multiplied by 45?","references":["1350"],"tags":["reasoning","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0082","task_type":"generation","input":"What is the chemical symbol for iron?","references":["Fe"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0083","task_type":"generation","input":"What is 3 plus 10?","references":["13"],"tags":["reasoning"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0084","task_type":"generation","input":"What is the capital of Kenya?","references":["Nairobi"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0085","task_type":"generation","input":"What is 27 multiplied by 48?","references":["1296"],"tags":["reasoning"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0086","task_type":"generation","input":"What is the chemical symbol for gold?","references":["Au"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0087","task_type":"generation","input":"What is 4 plus 11?","references":["15"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0088","task_type":"generation","input":"What is the capital of Canada?","references":["Ottawa"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0089","task_type":"generation","input":"What is 72 multiplied by 71?","references":["5112"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0090","task_type":"generation","input":"What is the chemical symbol for helium?","references":["He"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0091","task_type":"generation","input":"What is 17 plus 15?","references":["32"],"tags":["reasoning","adversarial"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0092","task_type":"generation","input":"What is the capital of Chile?","references":["Santiago"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0093","task_type":"generation","input":"What is 91 multiplied by 83?","references":["7553"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0094","task_type":"generation","input":"What is the chemical symbol for iron?","references":["Fe"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0095","task_type":"generation","input":"What is 9 plus 3?","references":["12"],"tags":["reasoning","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0096","task_type":"generation","input":"What is the capital of Poland?","references":["Warsaw"],"tags":["factual","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0097","task_type":"generation","input":"What is 73 multiplied by 85?","references":["6205"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0098","task_type":"generation","input":"What is the chemical symbol for iron?","references":["Fe"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0099","task_type":"generation","input":"What is 10 plus 20?","references":["30"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0100","task_type":"generation","input":"What is the capital of Peru?","references":["Lima"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0101","task_type":"generation","input":"What is 14 multiplied by 78?","references":["1092"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0102","task_type":"generation","input":"What is the chemical symbol for iron?","references":["Fe"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0103","task_type":"generation","input":"What is 3 plus 8?","references":["11"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0104","task_type":"generation","input":"What is the capital of Brazil?","references":["Brasilia"],"tags":["factual","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0105","task_type":"generation","input":"What is 30 multiplied by 24?","references":["720"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0106","task_type":"generation","input":"What is the chemical symbol for sodium?","references":["Na"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0107","task_type":"generation","input":"What is 15 plus 18?","references":["33"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0108","task_type":"generation","input":"What is the capital of Peru?","references":["Lima"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0109","task_type":"generation","input":"What is 92 multiplied by 96?","references":["8832"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0110","task_type":"generation","input":"What is the chemical symbol for oxygen?","references":["O"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0111","task_type":"generation","input":"What is 12 plus 12?","references":["24"],"tags":["reasoning"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0112","task_type":"generation","input":"What is the capital of Kenya?","references":["Nairobi"],"tags":["factual","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0113","task_type":"generation","input":"What is 59 multiplied by 85?","references":["5015"],"tags":["reasoning","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0114","task_type":"generation","input":"What is the chemical symbol for neon?","references":["Ne"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0115","task_type":"generation","input":"What is 3 plus 4?","references":["7"],"tags":["reasoning","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0116","task_type":"generation","input":"What is the capital of France?","references":["Paris"],"tags":["factual","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0117","task_type":"generation","input":"What is 31 multiplied by 30?","references":["930"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0118","task_type":"generation","input":"What is the chemical symbol for helium?","references":["He"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0119","task_type":"generation","input":"What is 18 plus 3?","references":["21"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0120","task_type":"generation","input":"What is the capital of Poland?","references":["Warsaw"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0121","task_type":"generation","input":"What is 65 multiplied by 37?","references":["2405"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0122","task_type":"generation","input":"What is the chemical symbol for silver?","references":["Ag"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0123","task_type":"generation","input":"What is 14 plus 20?","references":["34"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0124","task_type":"generation","input":"What is the capital of France?","references":["Paris"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0125","task_type":"generation","input":"What is 34 multiplied by 49?","references":["1666"],"tags":["reasoning","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0126","task_type":"generation","input":"What is the chemical symbol for iron?","references":["Fe"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0127","task_type":"generation","input":"What is 11 plus 15?","references":["26"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0128","task_type":"generation","input":"What is the capital of Egypt?","references":["Cairo"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0129","task_type":"generation","input":"What is 47 multiplied by 53?","references":["2491"],"tags":["reasoning","adversarial"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0130","task_type":"generation","input":"What is the chemical symbol for silver?","references":["Ag"],"tags":["factual","adversarial"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0131","task_type":"generation","input":"What is 4 plus 6?","references":["10"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0132","task_type":"generation","input":"What is the capital of France?","references":["Paris"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0133","task_type":"generation","input":"What is 17 multiplied by 23?","references":["391"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0134","task_type":"generation","input":"What is the chemical symbol for gold?","references":["Au"],"tags":["factual","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0135","task_type":"generation","input":"What is 12 plus 5?","references":["17"],"tags":["reasoning","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0136","task_type":"generation","input":"What is the capital of Norway?","references":["Oslo"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0137","task_type":"generation","input":"What is 73 multiplied by 25?","references":["1825"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0138","task_type":"generation","input":"What is the chemical symbol for neon?","references":["Ne"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0139","task_type":"generation","input":"What is 5 plus 11?","references":["16"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0140","task_type":"generation","input":"What is the capital of Canada?","references":["Ottawa"],"tags":["factual","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0141","task_type":"generation","input":"What is 98 multiplied by 26?","references":["2548"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0142","task_type":"generation","input":"What is the chemical symbol for oxygen?","references":["O"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0143","task_type":"generation","input":"What is 13 plus 8?","references":["21"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0144","task_type":"generation","input":"What is the capital of Japan?","references":["Tokyo"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0145","task_type":"generation","input":"What is 16 multiplied by 73?","references":["1168"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0146","task_type":"generation","input":"What is the chemical symbol for oxygen?","references":["O"],"tags":["factual","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0147","task_type":"generation","input":"What is 18 plus 18?","references":["36"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0148","task_type":"generation","input":"What is the capital of Japan?","references":["Tokyo"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0149","task_type":"generation","input":"What is 65 multiplied by 21?","references":["1365"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0150","task_type":"generation","input":"What is the chemical symbol for iron?","references":["Fe"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0151","task_type":"generation","input":"What is 2 plus 16?","references":["18"],"tags":["reasoning","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0152","task_type":"generation","input":"What is the capital of Brazil?","references":["Brasilia"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0153","task_type":"generation","input":"What is 43 multiplied by 21?","references":["903"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0154","task_type":"generation","input":"What is the chemical symbol for gold?","references":["Au"],"tags":["factual","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0155","task_type":"generation","input":"What is 9 plus 13?","references":["22"],"tags":["reasoning","adversarial"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0156","task_type":"generation","input":"What is the capital of Norway?","references":["Oslo"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0157","task_type":"generation","input":"What is 26 multiplied by 11?","references":["286"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0158","task_type":"generation","input":"What is the chemical symbol for oxygen?","references":["O"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0159","task_type":"generation","input":"What is 5 plus 17?","references":["22"],"tags":["reasoning","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0160","task_type":"generation","input":"What is the capital of Egypt?","references":["Cairo"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0161","task_type":"generation","input":"What is 53 multiplied by 71?","references":["3763"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0162","task_type":"generation","input":"What is the chemical symbol for helium?","references":["He"],"tags":["factual"],"split":"hidden","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0163","task_type":"generation","input":"What is 5 plus 19?","references":["24"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0164","task_type":"generation","input":"What is the capital of Egypt?","references":["Cairo"],"tags":["factual","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0165","task_type":"generation","input":"What is 51 multiplied by 76?","references":["3876"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0166","task_type":"generation","input":"What is the chemical symbol for carbon?","references":["C"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0167","task_type":"generation","input":"What is 6 plus 2?","references":["8"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0168","task_type":"generation","input":"What is the capital of Egypt?","references":["Cairo"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0169","task_type":"generation","input":"What is 29 multiplied by 86?","references":["2494"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0170","task_type":"generation","input":"What is the chemical symbol for iron?","references":["Fe"],"tags":["factual"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0171","task_type":"generation","input":"What is 18 plus 3?","references":["21"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0172","task_type":"generation","input":"What is the capital of Nepal?","references":["Kathmandu"],"tags":["factual","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0173","task_type":"generation","input":"What is 58 multiplied by 48?","references":["2784"],"tags":["reasoning"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
+{"id":"gen-syn-0174","task_type":"generation","input":"What is the chemical symbol for sodium?","references":["Na"],"tags":["factual","adversarial"],"split":"dev","metadata":{"expected":"answer","synthetic":true}}
