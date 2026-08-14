@@ -156,13 +156,4 @@ src/trustgate/
   cli.py        `trustgate demo`
 ```
 
-## Roadmap (next)
-
-- ~~**W1–2** freeze evaluator interface, seed cases, human rubric first.~~ ✅
-- ~~**W3–4** dataset registry (immutable SQLite) + contamination + retrieval metrics.~~ ✅
-- ~~**W5–6** Judge Lab (position-swap, repeat trials, bias correction, judge↔human agreement).~~ ✅
-- ~~**W7–8** sampling (random/stratified/uncertainty) + PPI + label-efficiency curve.~~ ✅
-- ~~**W9–10** conformal decision engine + GitHub Action release gate.~~ ✅
-- ~~**W11–12** scale to EvalMix-500 + agent trajectories, technical report, tagged release.~~ ✅
-
 License: MIT (see `LICENSE`).
