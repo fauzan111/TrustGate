@@ -1,4 +1,4 @@
-# TrustGate
+# Evaluation Lab TrustGate
 
 **Risk-controlled evaluation & release-gating for LLM / RAG / agent systems.**
 
